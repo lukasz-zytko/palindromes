@@ -1,6 +1,6 @@
 def czy_palindrom(wyraz):
     """
-        Checks whether the given argument is a palindrome
+        Returns True if the argument is palindrome
         Arguments:
         string
     """
