@@ -6,6 +6,3 @@ def czy_palindrom(wyraz):
         return True
     else:
         return False
-
-check = czy_palindrom("nie kajak")
-print(check)
