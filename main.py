@@ -1,15 +1,9 @@
-def czy_palindrom(wyraz):
+def if_palindrome(str):
     """
         Returns True if the argument is palindrome
         Arguments:
         string
     """
-    wyr = wyraz.lower()
-    back = str()
-    for i in range(len(wyr)-1, -1, -1):
-        back += wyr[i]
-    return True if wyr == back else False
+    return str[::-1] == str
 
-#the easiest way
-#def if_pal(s):
-#    return s[::-1] == s
+print(if_palindrome("potop"))
